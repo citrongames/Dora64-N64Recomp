@@ -48,6 +48,7 @@ const std::unordered_set<std::string> N64Recomp::reimplemented_funcs {
     "osMotorStart",
     "osMotorStop",
     // PFS functions
+    "osPfsInit",
     "osPfsInitPak",
     "osPfsFreeBlocks",
     "osPfsAllocateFile",
@@ -235,7 +236,6 @@ const std::unordered_set<std::string> N64Recomp::ignored_funcs {
     "osPfsFindFile",
     "osPfsFreeBlocks",
     "osPfsGetLabel",
-    "osPfsInit",
     "osPfsInitPak",
     "osPfsIsPlug",
     "osPfsNumFiles",
